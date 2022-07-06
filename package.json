@@ -1,5 +1,5 @@
 {
-  "name": "portofolioprojc",
+  "name": "my_portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,12 +10,14 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "",
+  "author": " Kumar Ankit",
   "license": "ISC",
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "concurrently": "^6.4.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
+    "emailjs": "^4.0.0",
     "express": "^4.17.1",
     "nodemailer": "^6.7.2",
     "nodemon": "^2.0.15"

@@ -42,8 +42,8 @@ export default function Projects(props) {
     return (
       <div>
         <ScreenHeading
-          title={"A Bit of My Project"}
-          subHeading={"E&P - IT Related"}
+          title={"A Bit of My Projects"}
+          subHeading={"Development Projects"}
         />
         <section className="project-section fade-in" id={props.id || ""}>
           <div className="container">
@@ -58,13 +58,13 @@ export default function Projects(props) {
                     <div className="project-desc">
                       <p>
                         <i className="fa fa-quote-left" />
-                        Transforming daily production report from differ raw document to
-                        both database and Json format with Python and Talend Open Studio Tools
+                        Collecting data from different database and storing it in a single table 
+                        in an organised format. Applying date and time stamp to the data.
                         <i className="fa fa-quote-right" />
                       </p>
                     </div>
                     <div className="project-info">
-                      <h5>ETL Integration Workflow</h5>
+                      <h5>Catalyx Project</h5>
                       <p>IT Related</p>
                     </div>
                   </div>
@@ -81,7 +81,22 @@ export default function Projects(props) {
                       </p>
                     </div>
                     <div className="project-info">
-                      <h5>Gas Production API Service</h5>
+                      <h5>Social Media App</h5>
+                      <p>Development Related</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-12">
+                  <div className="project-item">
+                    <div className="project-comment">
+                      <p>
+                        <i className="fa fa-quote-left" />
+                        Improving Jsp and Servlet Project files to make them more secure and secure.
+                        <i className="fa fa-quote-right" />
+                      </p>
+                    </div>
+                    <div className="project-info">
+                      <h5>Evolution Project</h5>
                       <p>IT Related</p>
                     </div>
                   </div>
@@ -91,14 +106,13 @@ export default function Projects(props) {
                     <div className="project-comment">
                       <p>
                         <i className="fa fa-quote-left" />
-                        Develop stream data pipeline as enhancement of ETL process for production
-                        and facility data with Kafka and Docker
+                        Working on an application to help people to find the best size of their ring.
                         <i className="fa fa-quote-right" />
                       </p>
                     </div>
                     <div className="project-info">
-                      <h5>Implementation Kafka and Docker for Real-Time Monitoring</h5>
-                      <p>IT Related</p>
+                      <h5>Ring Sizer</h5>
+                      <p>Development Related</p>
                     </div>
                   </div>
                 </div>
@@ -107,30 +121,14 @@ export default function Projects(props) {
                     <div className="project-comment">
                       <p>
                         <i className="fa fa-quote-left" />
-                        Build end-to-end solution for GIS Web Application from raw data to
-                        visualization with ArcGIS Server and Python
-                        <i className="fa fa-quote-right" />
-                      </p>
-                    </div>
-                    <div className="project-info">
-                      <h5>GIS Web Apps and Visualization: Production Monitoring</h5>
-                      <p>IT-GIS Related</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="project-item">
-                    <div className="project-comment">
-                      <p>
-                        <i className="fa fa-quote-left" />
-                        Administer several E&P technical application from Geoscience, Drilling
+                        Administering several technical application from Company projects, Drilling
                         to Production.
                         <i className="fa fa-quote-right" />
                       </p>
                     </div>
                     <div className="project-info">
                       <h5>Application Technical Support</h5>
-                      <p>E&P Related</p>
+                      <p>Maintainance Related</p>
                     </div>
                   </div>
                 </div>
@@ -139,13 +137,13 @@ export default function Projects(props) {
                     <div className="project-comment">
                       <p>
                         <i className="fa fa-quote-left" />
-                        Multi-attribute and pore pressure analysis for several field area in Indonesia
+                        Devloping Api's with Fast API Gateway and NodeJs as backend.
                         <i className="fa fa-quote-right" />
                       </p>
                     </div>
                     <div className="project-info">
-                      <h5>Reservoir Analysis Project</h5>
-                      <p>E&P Related</p>
+                      <h5>Development Project</h5>
+                      <p>IT Related</p>
                     </div>
                   </div>
                 </div>

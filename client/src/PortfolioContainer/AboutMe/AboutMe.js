@@ -15,15 +15,15 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "E&P Data Specialist with Physics and Geophysics background. Have a small business in duck and sheep. An enthusiast for new technology and development. ",
+      "Product Engineer with background in Technology. Have hands on expeirence in major projects. An enthusiast for new technology and development. ",
     highlights: {
       bullets: [
-        "Building ETL Solutions",
+        "Building Simmulation Solutions",
         "SQL & No-SQL Database Development",
-        "G&G Technical Applications",
-        "GIS Web Development and Analysis",
-        "Machine Learning Project in Drilling and Production",
-        "Building REST-API with Python and Node.Js",
+        "Web Applications",
+        "Web Development and Analysis",
+        "MERN Stack Development",
+        "Building REST-API withNode.Js",
       ],
       heading: "Here are a Few Highlights:",
     },
@@ -61,8 +61,8 @@ export default function AboutMe(props) {
             <div className="about-me-options ">
             <button className="btn primary-btn"
                         onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-                    > Let's Discuss! </button>
-              <a href="My_CV_2_0.pdf" download="My Portfolio.pdf">
+                    > Get in Touch! </button>
+              <a href="client\public\Ankit-Kumar-CV.pdf" >
                 <button className="btn highlighted-btn ">Get Portfolio</button>
               </a>
             </div>

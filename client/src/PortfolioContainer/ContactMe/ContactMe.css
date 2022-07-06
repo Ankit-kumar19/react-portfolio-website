@@ -21,7 +21,7 @@
     color: #fff;
     font-family: "Montserrat Medium";
     letter-spacing: 0.1rem;
-    margin-bottom: 20px;
+    /* margin-bottom: 5px; */
   }
   
   .back-form {
@@ -31,7 +31,8 @@
   
   .back-form .img-back {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    /* height: 100%; */
   }
   
   .img-back h4 {
@@ -46,6 +47,7 @@
   .back-form .img-back img {
     width: 100%;
     opacity: 0.9;
+    /* height: 100%; */
   }
   
   .central-form form {
@@ -117,7 +119,7 @@
   
   form button:hover {
     background-color: #1f2235;
-    transition: all ease 1s;
+    /* transition: all ease 1s; */
     border: 2px solid #1f2235;
   }
   
@@ -161,4 +163,13 @@
       font-size: 16px;
     }
   }
+
+  input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: rgb(249, 105, 14);
+    color: white;
+    border: none;
+  }
+  
   

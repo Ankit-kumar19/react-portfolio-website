@@ -10,18 +10,18 @@ export default function Profile() {
                 <div className="profile-details">
                     <div className='colz'>
                         <div className='colz-icon'>
-                        <a href='https://medium.com/@rwsoeriawinata'>
-                            <i className="fa fa-medium"></i>
-                        </a>
-                        <a href='https://www.linkedin.com/in/raditiasoeriawinata-25434842/'>
+                        <a href='https://www.linkedin.com/in/ankit-kumar-cse19/' target="_blank">
                             <i className="fa fa-linkedin"></i>
+                        </a>
+                        <a href='https://github.com/Ankit-kumar19' target="_blank">
+                            <i className="fa fa-github"></i>
                         </a>
                         </div>
                     </div>
                     <div className="profile-details-name">
                         <span className='primary-text'>
                             {" "}
-                            Hello, I'm <span className="highlighted-text">Raditia</span>
+                            Hello, I'm <span className="highlighted-text">Ankit Kumar</span>
                         </span>
                     </div>
                     <div className="profile-details-role">
@@ -33,19 +33,17 @@ export default function Profile() {
                                 loop={Infinity}
                                 steps={[
                                     "Enthusiastic Technology",
-                                    1000,
-                                    "E&P Data Specialist",
-                                    1000,
-                                    "Machine Learning Learner",
-                                    1000,
+                                    2010,
+                                    "Full Stack Developer", 
+                                    2010,
+                                    "JAVA Developer",
+                                    2010,
                                     "Enthusiastic Back-End Tech.",
-                                    1000,
-                                    "Graduated Geophysics",
-                                    1000,
-                                    "Database Specialist",
-                                    1000,
-                                    "Graduated Physics",
-                                    1000,
+                                    2010,
+                                    "Graduated ComputerScience",
+                                    2010,
+                                    "FreeLancer",
+                                    2010,
                                 ]}
                                 />
                             </h1>
@@ -57,9 +55,9 @@ export default function Profile() {
                     <div className="profile-options">
                     <button className="btn primary-btn"
                         onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-                    > Let's Discuss! </button>
-                        <a href='My_CV_2_0.pdf' download='My Portfolio.pdf'>
-                            <button className="btn highlighted-btn">Get Portfolio</button>
+                    > Get in touch! </button>
+                        <a href='Ankit-Kumar-CV.pdf' target="_blank">
+                            <button className="btn highlighted-btn">My CV</button>
                         </a>
                     </div>
                 </div>
